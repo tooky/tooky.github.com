@@ -51,7 +51,9 @@ a:hover {
 a:visited {
   color: #a0a;
 }
- 
+a img {
+  border: none;
+}
 table {
   font-size: inherit;
   font: 100%;
@@ -79,7 +81,7 @@ div.site {
 }
 
 .header .title a {
-   color: #009;
+   color: #55e;
    text-decoration: none;
 }
 
@@ -99,10 +101,30 @@ div.site {
 }
 
 .header .menu li a {
-   color: #77e;
+   color: #777;
    text-decoration: none;
 }
 
 .header .menu li a:hover {
   color: black;
+}
+
+/* posts */
+
+.posts li {
+   list-style-type: none;
+}
+
+/* footer */
+.footer {
+   clear: both;
+   margin-top: 2em;
+   border-top: 3px solid #777;
+   padding-top: 1em;
+}
+.footer .contact {
+   float: left;
+}
+.footer .rss {
+   float: right;
 }

@@ -7,6 +7,8 @@
    <title>{{ page.title }}</title>
    <meta name="author" content="Steve Tooke" />
 
+   <link href="http://tooky.github.com/atom.xml" rel="alternate" title="Steve Tooke" type="application/atom+xml" />   
+
    <!-- syntax highlighting CSS -->
    <link rel="stylesheet" href="/css/syntax.css" type="text/css" />
  
@@ -32,16 +34,16 @@
 
     {{ content }}
 
-    <div class="footer">
-
-      <div class="about">
-        <p>&copy; Steve Tooke - steve.tooke @ gmail.com</p>
-      </div>
+    <div class="footer clearfix">
 
       <div class="contact">
+        <div>steve.tooke @ gmail.com</div>
+        <div><a href="http://twitter.com/tooky">twitter.com/tooky</a></div>
+        <div><a href="http://github.com/tooky">github.com/tooky</a></div>
       </div>
 
       <div class="rss">
+        <a href="http://tooky.github.com/atom.xml"><img src="/images/feed-icon-96x96.png" title="feed" /></a>
       </div>
     </div>
   </div>
