@@ -5,7 +5,7 @@ title: GitHub Pages and Jekyll
 {{ page.title }}
 ================
 
-<p class="date">17 Dec 2008</p>
+<p class="date">18 Dec 2008</p>
 
 [GitHub's](http://github.com) new GitHub pages service makes it incredibly easy to host a static site, which is completely version controlled, when you add [Tom Preston-Werner's](http://mojombo.github.com) [Jekyll](http://github.com/mojombo/jekyll) into the mix you get a fantastically simple blogging platform.
 
