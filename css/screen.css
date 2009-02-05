@@ -128,3 +128,18 @@ div.site {
 .footer .rss {
    float: right;
 }
+
+.file {
+   border: 1px solid #777;
+}
+
+.file .name {
+   background-color: #aaa;
+   padding: 0.7em;
+   border-bottom: 1px solid #777;
+   font-family: 
+}
+
+.file .text {
+  padding: 0.7em;
+}
