@@ -7,6 +7,8 @@ title: Getting started with Cucumber and Sinatra
 
 <p class="date">5 February 2009</p>
 
+**UPDATE** Sinatra and cucumber integration has changed now, Rob Holland updated the [wiki](http://wiki.github.com/aslakhellesoy/cucumber/sinatra) to reflect it. There is also a more full featured example on his [branch](http://github.com/robholland/cucumber/commit/0e12d8100ca8541af014abe6a480c53a90b6aebd) of cucumber. I've updated the blog to reflect that.
+
 [Sinatra](http://sinatra.github.com) is probably the most popular ruby micro web framework at the moment. Its simple dsl for quickly creating web apps, it give you "just enough" framework to get things done.
 
 [Cucumber](http://cukes.info) is that latest development from the [BDD](http://dannorth.net/introducing-bdd) / [RSpec](http://rspec.info) guys. [Cucumber](http://cukes.info) lets you describe the behaviour of your software in plain text. These files then serve as automated tests and documentation.
@@ -60,7 +62,10 @@ The feature is currently failing as a method we have used in our step definition
   <div class="text">
 {% highlight ruby %}
 require 'spec/expectations'
-require 'webrat/sinatra'
+require 'webrat'
+Webrat.configure do |config|
+  config.mode = :sinatra
+end
 
 World do
   Webrat::SinatraSession.new
@@ -95,14 +100,16 @@ Now if we run out scenario again unfortunately it still fails, we need to hook c
   <div class="text">
 {% highlight ruby %}
 require 'spec/expectations'
-require 'webrat/sinatra'
-
-$0 = File.dirname(__FILE__) + '/../../hello.rb' # Otherwise Sinatra will look for views in the wrong place
-require File.dirname(__FILE__) + '/../../hello'
+require 'webrat'
+Webrat.configure do |config|
+  config.mode = :sinatra
+end
 
 World do
   Webrat::SinatraSession.new
 end
+
+require File.dirname(__FILE__) + '/../../hello''
 {% endhighlight %}
   </div>
 </div>
