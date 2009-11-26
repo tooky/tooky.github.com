@@ -2,8 +2,8 @@
 layout: post
 title: Software Craftsmanship and Eden Development
 --- 
-{{ page.title }}
-================
+[{{ page.title }}]({{ page.url }})
+==================================
 
 <p class="date">24 November 2009</p>
 

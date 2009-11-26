@@ -2,8 +2,8 @@
 layout: post
 title: How I'm going to try to become a better pair.
 ---
-{{ page.title }}
-================
+[{{ page.title }}]({{ page.url }})
+==================================
 
 <p class="date">02 September 2009</p>
 

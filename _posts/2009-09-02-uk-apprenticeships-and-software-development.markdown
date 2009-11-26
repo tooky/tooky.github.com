@@ -2,8 +2,8 @@
 layout: post
 title: UK Apprenticeships and Software Development
 ---
-{{ page.title }}
-================
+[{{ page.title }}]({{ page.url }})
+==================================
 
 <p class="date">2 September 2009</p>
 
