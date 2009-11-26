@@ -5,7 +5,7 @@ title: Software Craftsmanship and Eden Development
 [{{ page.title }}]({{ page.url }})
 ==================================
 
-<p class="date">24 November 2009</p>
+<p class="date">25 November 2009</p>
 
 I'm not sure when I first came across [software
 craftsmanship](http://en.wikipedia.org/wiki/Software_Craftsmanship), but I know
