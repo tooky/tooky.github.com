@@ -58,6 +58,13 @@ table {
   font-size: inherit;
   font: 100%;
 }
+blockquote {
+  font-style: italic;
+  margin-left: 30px;
+  color: #555;
+  border: 1px dashed #555;
+  padding: 0 15px;
+}
 
 /* site */
 div.site {
