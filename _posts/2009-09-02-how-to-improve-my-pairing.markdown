@@ -1,6 +1,10 @@
 ---
 layout: post
 title: How I'm going to try to become a better pair.
+categories:
+  - pairing
+  - software
+  - development
 ---
 [{{ page.title }}]({{ page.url }})
 ==================================

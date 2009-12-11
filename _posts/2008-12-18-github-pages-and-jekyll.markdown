@@ -1,6 +1,9 @@
 ---
 layout: post
 title: GitHub Pages and Jekyll
+categories:
+  - github
+  - jekyll
 ---
 {{ page.title }}
 ================

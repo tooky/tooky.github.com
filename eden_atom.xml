@@ -14,9 +14,10 @@ layout: nil
    <email>steve.tooke@gmail.com</email>
  </author>
  
- {% for post in site.posts %}
+ {% for post in site.categories.eden %}
  <entry>
    <title>{{ post.title }}</title>
+   <tags>{{post.tags}}</tags>
    {% for category in post.categories %}
    <category term="{{category}}" />
    {% endfor %}

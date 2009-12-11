@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Simple Old-school webcam using iSightcapture and dropbox
+categories: 
+  - hacks
 ---
 {{ page.title }}
 ================

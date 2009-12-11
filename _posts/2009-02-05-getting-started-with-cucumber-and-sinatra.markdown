@@ -1,6 +1,10 @@
 ---
 layout: post
 title: Getting started with Cucumber and Sinatra
+categories:
+  - cucumber
+  - sinatra
+  - bdd
 ---
 {{ page.title }}
 ================

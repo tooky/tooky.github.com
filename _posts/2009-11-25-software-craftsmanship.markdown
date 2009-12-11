@@ -1,6 +1,9 @@
 --- 
 layout: post
 title: Software Craftsmanship and Eden Development
+categories: 
+  - craftsmanship
+  - eden
 --- 
 [{{ page.title }}]({{ page.url }})
 ==================================

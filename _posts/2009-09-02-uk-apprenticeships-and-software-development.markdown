@@ -1,6 +1,9 @@
 ---
 layout: post
 title: UK Apprenticeships and Software Development
+categories:
+  - eden
+  - craftsmanship
 ---
 [{{ page.title }}]({{ page.url }})
 ==================================
