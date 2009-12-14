@@ -4,6 +4,7 @@ title: Software Craftsmanship and Eden Development
 categories: 
   - craftsmanship
   - eden
+permalink:  /2009/11/25/software-craftsmanship.html
 --- 
 <p class="date">25 November 2009</p>
 

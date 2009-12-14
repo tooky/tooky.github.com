@@ -5,6 +5,7 @@ categories:
   - pairing
   - software
   - development
+permalink:  /2009/09/02/how-to-improve-my-pairing.html
 ---
 <p class="date">02 September 2009</p>
 

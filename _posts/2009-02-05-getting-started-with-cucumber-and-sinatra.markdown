@@ -5,6 +5,7 @@ categories:
   - cucumber
   - sinatra
   - bdd
+permalink:  /2009/02/05/getting-started-with-cucumber-and-sinatra.html
 ---
 <p class="date">5 February 2009</p>
 

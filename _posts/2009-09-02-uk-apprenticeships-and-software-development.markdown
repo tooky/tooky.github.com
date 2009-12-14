@@ -4,6 +4,7 @@ title: UK Apprenticeships and Software Development
 categories:
   - eden
   - craftsmanship
+permalink:  2009/09/02/uk-apprenticeships-and-software-development.html
 ---
 <p class="date">2 September 2009</p>
 

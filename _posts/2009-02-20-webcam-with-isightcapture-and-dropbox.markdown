@@ -3,6 +3,7 @@ layout: post
 title: Simple Old-school webcam using iSightcapture and dropbox
 categories: 
   - hacks
+permalink:  /2009/02/20/webcam-with-isightcapture-and-dropbox.html
 ---
 <p class="date">20 February 2009</p>
 

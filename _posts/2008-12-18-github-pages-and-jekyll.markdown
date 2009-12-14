@@ -4,6 +4,7 @@ title: GitHub Pages and Jekyll
 categories:
   - github
   - jekyll
+permalink:  /2008/12/18/github-pages-and-jekyll.html
 ---
 <p class="date">18 Dec 2008</p>
 
