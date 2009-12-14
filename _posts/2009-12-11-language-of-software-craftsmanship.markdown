@@ -4,6 +4,7 @@ title: The Language of Software Craftsmanship
 categories: 
   - craftsmanship
   - eden
+permalink:  /craftsmanship/eden/2009/12/11/language-of-software-craftsmanship.html
 --- 
 <p class="date">11 December 2009</p>
 
