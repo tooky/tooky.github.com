@@ -5,8 +5,8 @@ layout: nil
 <feed xmlns="http://www.w3.org/2005/Atom">
  
  <title>Steve Tooke</title>
- <link href="http://tooky.github.com/atom.xml" rel="self"/>
- <link href="http://tooky.github.com.com/"/>
+ <link href="http://tooky.github.com/eden_atom.xml" rel="self"/>
+ <link href="http://tooky.github.com/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
  <id>http://tooky.github.com/</id>
  <author>

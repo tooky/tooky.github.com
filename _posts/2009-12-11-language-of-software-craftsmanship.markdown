@@ -5,9 +5,6 @@ categories:
   - craftsmanship
   - eden
 --- 
-[{{ page.title }}]({{ page.url }})
-==================================
-
 <p class="date">11 December 2009</p>
 
 The [software craftsmanship list](http://groups.google.com/group/software_craftsmanship/browse_thread/thread/417bec17184ccfc2#) had a little flurry of activity today. [Jason Gorman](http://twitter.com/jasongorman) posted about [David Harvey's](http://www.teamsandtechnology.com/dh/blog/) [session](http://qconlondon.com/london-2010/presentation/Danger:+Software+Craftsmen+at+Work) at next years [QCon London](http://qconlondon.com/london-2010/). The talk - [Danger: Software Craftsmen at Work](http://qconlondon.com/london-2010/presentation/Danger:+Software+Craftsmen+at+Work) - unsurprisingly caused some discussion on the list!
@@ -25,3 +22,5 @@ Using terms like "apprentice", "journeymen" and "master" **is** probably a bit a
 The software craftsmanship metaphor gives us shared vision for improving the state of software development. Its not supposed to be new ideas, its just a new way of framing new ideas to give people a common language to use. Calling myself an apprentice allows me to say that I have a lot to learn, that I want to be part of company that is willing to invest in me, if I'm willing to invest in myself.
 
 If I sound absurd when I tell people that, then so be it. It certainly starts the conversation.
+
+{% include permalink.html %}

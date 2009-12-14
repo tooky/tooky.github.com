@@ -5,9 +5,6 @@ categories:
   - github
   - jekyll
 ---
-{{ page.title }}
-================
-
 <p class="date">18 Dec 2008</p>
 
 [GitHub's](http://github.com) new GitHub pages service makes it incredibly easy to host a static site, which is completely version controlled, when you add [Tom Preston-Werner's](http://mojombo.github.com) [Jekyll](http://github.com/mojombo/jekyll) into the mix you get a fantastically simple blogging platform.
@@ -19,3 +16,5 @@ The great thing about this is that [GitHub](http://github.com) run your reposito
 Tom has also published his [repository](http://github.com/mojombo/tpw/tree/master) to help you get started as well.
 
 Many thanks to Tom for all of this, I've managed to put together a nice simple clean site based on his ideas, which I'm really pleased with!
+
+{% include permalink.html %}

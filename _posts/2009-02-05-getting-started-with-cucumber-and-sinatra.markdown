@@ -6,9 +6,6 @@ categories:
   - sinatra
   - bdd
 ---
-{{ page.title }}
-================
-
 <p class="date">5 February 2009</p>
 
 **UPDATE** Sinatra and cucumber integration has changed now, Rob Holland updated the [wiki](http://wiki.github.com/aslakhellesoy/cucumber/sinatra) to reflect it. There is also a more full featured example on his [branch](http://github.com/robholland/cucumber/commit/0e12d8100ca8541af014abe6a480c53a90b6aebd) of cucumber. I've updated the blog to reflect that.
@@ -142,3 +139,4 @@ end
 
 All of the code for this getting started guide is available from [gist](http://gist.github.com/58647).
 
+{% include permalink.html %}

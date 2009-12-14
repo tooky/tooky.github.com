@@ -5,9 +5,6 @@ categories:
   - craftsmanship
   - eden
 --- 
-[{{ page.title }}]({{ page.url }})
-==================================
-
 <p class="date">25 November 2009</p>
 
 I'm not sure when I first came across [software
@@ -49,3 +46,5 @@ I'm pleased to say that I was offered, and have accepted, an Eden Development
 apprenticeship under the guidance of [Todd
 Anderson](http://twitter.com/edentodd). I'm excited to see how this program
 develops, and look forward to sharing my experiences.
+
+{% include permalink.html %}

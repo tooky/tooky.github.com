@@ -6,9 +6,6 @@ categories:
   - software
   - development
 ---
-[{{ page.title }}]({{ page.url }})
-==================================
-
 <p class="date">02 September 2009</p>
 
 I started my new job with [Eden Development](http://www.edendevelopment.co.uk) about 2 months ago now. So far its been going great, I've been working on an interesting project (which I hope to speak more about soon) with a great team.
@@ -26,3 +23,5 @@ When I'm driving I'm going to try to slow down a little - rather than just divin
 I'm pretty sure that taking the time to explain my thinking will not only help my pair stay involved but will give us both chance to think about it, and pick up on any potential problems or wrong assumptions.
 
 Hopefully talking more will make it easier for my pair to offer an alternative strategy. If we've slowed down, and we're talking more about the solution its less work to stop and change direction to try an alternative - it feels less like an interruption perhaps.
+
+{% include permalink.html %}
