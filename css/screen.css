@@ -22,34 +22,51 @@ html, body {
 }
  
 body {
-  background-color: white;
+  background-color: #fffffd;
   font: 10px "Lucida Grande", Verdanda, helvetica, arial, clean, sans-serif;
   *font-size: small;
   text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-size: 100%;
+	font-family: Georgia, Times, serif;
+	font-weight: normal;
 }
  
 h1 {
-  margin-bottom: 1em;
+	margin-bottom: 1em;
+  font-size: 1.9em;
+}
+
+h2 {
+	margin-bottom: 0.9em;
+  font-size: 1.7em;
+}
+
+h3 {
+	margin-bottom: 0.4em;
+  font-size: 1.5em;
+  
+}
+
+h1 a {
+	text-decoration: none;
 }
  
 p {
   margin: 1em 0;
 }
- 
+p.date {
+	font-style: italic;
+}
 a {
   color: #00a;
+	text-decoration: none;
 }
  
 a:hover {
   color: black;
-}
- 
-a:visited {
-  color: #a0a;
+	text-decoration: underline;
 }
 a img {
   border: none;
@@ -60,31 +77,42 @@ table {
 }
 blockquote {
   font-style: italic;
-  margin-left: 30px;
+	font-size: 0.9em;
+  margin-left: 2em;
+  margin-right: 2em;
+
   color: #555;
   border: 1px dashed #555;
-  padding: 0 15px;
+  padding: 0 15px 15px 15px;
+}
+
+blockquote ul {
+	margin-left: 40px;
+	list-style-type: square;
 }
 
 /* site */
 div.site {
    font-size: 150%;
    text-align: justify;
-   width: 65em;
+   max-width: 43em;
    margin: 3em auto;
-   line-height: 1.5em;
+   line-height: 1.8em;
+	 padding: 0 1em;
+	 color: #444;
 }
 
 /* header */
 .header {
    clear: both;
+	 margin-bottom: 1em;
 }
 .header .title {
-   font-size: 150%;
    font-weight: bold;
    margin-bottom: 0.7em;
    float: left;
    margin-right: 2em;
+	 font-size: 1.4em;
 }
 
 .header .title a {
