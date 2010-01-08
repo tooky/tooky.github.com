@@ -71,6 +71,9 @@ a:hover {
 a img {
   border: none;
 }
+ul {
+  margin-left: 20px
+}
 table {
   font-size: inherit;
   font: 100%;
@@ -145,7 +148,6 @@ div.site {
 }
 
 /* posts */
-
 .posts li {
    list-style-type: none;
 }
