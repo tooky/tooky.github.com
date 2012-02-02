@@ -9,7 +9,7 @@ permalink:  /2009/02/05/getting-started-with-cucumber-and-sinatra.html
 ---
 <p class="date">5 February 2009</p>
 
-**UPDATE** Sinatra and cucumber integration has changed now, Rob Holland updated the [wiki](http://wiki.github.com/aslakhellesoy/cucumber/sinatra) to reflect it. There is also a more full featured example on his [branch](http://github.com/robholland/cucumber/commit/0e12d8100ca8541af014abe6a480c53a90b6aebd) of cucumber. I've updated the blog to reflect that.
+**UPDATE** Sinatra and cucumber integration has changed now, Rob Holland updated the [wiki](https://github.com/cucumber/cucumber/wiki/sinatra) to reflect it. There is also a more full featured example on his [branch](http://github.com/robholland/cucumber/commit/0e12d8100ca8541af014abe6a480c53a90b6aebd) of cucumber. I've updated the blog to reflect that.
 
 [Sinatra](http://sinatra.github.com) is probably the most popular ruby micro web framework at the moment. Its simple dsl for quickly creating web apps, it give you "just enough" framework to get things done.
 
