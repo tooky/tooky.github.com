@@ -6,7 +6,7 @@ categories:
   - atdd
   - cucumber
   - fitnesse
-date: 2013-18-01 15:55:00 +00:00
+date: 2013-01-18 15:55:00 +00:00
 ---
 <p class="date">18 January 2013</p>
 
