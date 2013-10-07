@@ -4,8 +4,8 @@ layout: nil
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  
-  <title>Steve Tooke - Posts tagged BDD</title>
- <link href="http://tooky.co.uk/bdd_atom.xml" rel="self"/>
+  <title>Steve Tooke - Posts tagged kickstartac</title>
+ <link href="http://tooky.co.uk/kickstartac_atom.xml" rel="self"/>
  <link href="http://tooky.co.uk/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
  <id>http://tooky.co.uk/</id>
@@ -14,7 +14,7 @@ layout: nil
    <email>steve.tooke@gmail.com</email>
  </author>
  
- {% for post in site.categories.bdd %}
+ {% for post in site.categories.kickstartac %}
  <entry>
    <title>{{ post.title }}</title>
    <tags>{{post.tags}}</tags>

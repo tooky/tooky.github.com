@@ -2,6 +2,7 @@
 layout: post
 title: Cucumber and Full Stack Testing
 categories:
+  - kickstartac
   - bdd
   - atdd
   - cucumber
