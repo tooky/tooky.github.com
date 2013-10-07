@@ -4,26 +4,26 @@ layout: nil
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  
- <title>Steve Tooke</title>
- <link href="http://tooky.github.com/eden_atom.xml" rel="self"/>
- <link href="http://tooky.github.com/"/>
+  <title>Steve Tooke - Posts tagged BDD</title>
+ <link href="http://tooky.co.uk/bdd_atom.xml" rel="self"/>
+ <link href="http://tooky.co.uk/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://tooky.github.com/</id>
+ <id>http://tooky.co.uk/</id>
  <author>
    <name>Steve Tooke</name>
    <email>steve.tooke@gmail.com</email>
  </author>
  
- {% for post in site.categories.eden %}
+ {% for post in site.categories.bdd %}
  <entry>
    <title>{{ post.title }}</title>
    <tags>{{post.tags}}</tags>
    {% for category in post.categories %}
    <category term="{{category}}" />
    {% endfor %}
-   <link href="http://tooky.github.com{{ post.url }}"/>
+   <link href="http://tooky.co.uk{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>http://tooky.github.com{{ post.id }}</id>
+   <id>http://tooky.co.uk{{ post.id }}</id>
    <content type="html">{{ post.content | xml_escape }}</content>
  </entry>
  {% endfor %}
