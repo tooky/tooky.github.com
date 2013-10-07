@@ -17,6 +17,10 @@ layout: nil
  {% for post in site.categories.kickstartac %}
  <entry>
    <title>{{ post.title }}</title>
+   <author>
+     <name>Steve Tooke</name>
+     <email>steve.tooke@gmail.com</email>
+   </author>
    <tags>{{post.tags}}</tags>
    {% for category in post.categories %}
    <category term="{{category}}" />
